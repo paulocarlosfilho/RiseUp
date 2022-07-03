@@ -1,0 +1,759 @@
+/* Main CSS */
+.main {
+  font-family: "Fredoka One";
+}
+
+.body {
+  background-color: gray;
+}
+
+/* Landingpage */
+#logo {
+  color: #fff;
+  font-size: 39px;
+  text-decoration: none;
+}
+
+.my-icon {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #003373;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+#navbar-links {
+  background-color: #fff;
+  border-radius: 8px;
+  padding-top: 16px;
+}
+
+#btn-login {
+  color: #fff;
+  background-image: linear-gradient(to right, #003373, #3998b8);
+  border-radius: 8px;
+  height: 100%;
+  text-align: center;
+  padding-top: 16px;
+}
+
+#btn-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+#section-destaque {
+  margin-top: 10%;
+}
+
+#section-textos {
+  color: #fff;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+#section-textos-lead {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+#section-textos-body-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#div-saibamais {
+  background-color: #fff;
+  height: 53px;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 14px;
+}
+
+#btn-saibamais {
+  color: #003373;
+  text-decoration: none;
+}
+
+#section-imgs {
+  align-items: center;
+  padding-left: 15%;
+}
+
+#blindman-img {
+  height: 396px;
+  width: 265px;
+  border-radius: 36px;
+  box-shadow: 2px 2px 2px #003373;
+}
+
+#airplane-img {
+  height: 295px;
+  width: 265px;
+  border-radius: 36px;
+  box-shadow: 2px 2px 2px #003373;
+}
+
+#div-title {
+  height: 150px;
+  align-items: center;
+  text-align: middle;
+  margin: 0px;
+  padding: 0px;
+}
+
+#bot-img {
+  height: 128px;
+}
+
+#col-text {
+  color: #fff;
+  font-size: 31px;
+}
+
+#section-duvidas {
+  background-image: linear-gradient(to right, #003373, #3998b8);
+  border-radius: 16px;
+  height: 280px;
+}
+
+#section-duvidas-pergunta {
+  font-size: 20px;
+  color: #fff;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+#section-duvidas-resposta {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  margin: 10px;
+}
+
+#nav-footer {
+  color: #fff;
+}
+
+#nav-footer2 {
+  color: #003373;
+}
+
+/* Comprar Passagem */
+
+.myform {
+  background-color: #003373;
+  color: #fff;
+  border-radius: 10px;
+  width: 573px;
+}
+
+.btn-clear {
+  background-color: #bebebe !important;
+  color: #003373 !important;
+  border-color: #bebebe !important;
+}
+
+#title-input {
+  font-size: 20px;
+}
+
+.input-origem-destino {
+  border-radius: 4px;
+  width: 534px;
+}
+
+.input-passageiro {
+  height: 46px;
+  width: 534px;
+}
+
+#text-title {
+  color: #fff;
+  font-size: 31px;
+}
+
+#divider-section {
+  height: 8px;
+  width: 108px;
+  background-color: #003373;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#section-btns-comprar {
+  padding-left: 10px;
+  width: 100%;
+}
+
+#div-btn-voltar {
+  background-color: #3998b8;
+  height: 41px;
+  width: 168px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+#btn-voltar {
+  color: #fff;
+  text-decoration: none;
+}
+
+#div-btn-buscar {
+  background-color: #ff6464;
+  height: 41px;
+  width: 168px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+#btn-buscar {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Acessibilidade*/
+
+#text-title-acess {
+  color: #fff;
+  font-size: 31px;
+}
+
+#text-subtitle-acess {
+  color: #003373;
+}
+
+#main-text-acess {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+#text-holder-acess {
+  height: 8px;
+  width: 108px;
+  background-color: #3998b8;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#text-question-acess {
+  color: #003373;
+  font-size: 24px;
+}
+
+#div-question-border {
+  border-bottom: 2px solid #003373;
+  width: 50%;
+}
+
+#div-acess-row1 {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#div-acess-row2 {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.icons {
+  font-size: 50px;
+  color: #fff;
+}
+
+#div-icon {
+  padding-left: 10px;
+  width: 70px;
+  height: 70px;
+  background-color: #3998b8;
+}
+
+#title-text-acess {
+  color: #003373;
+  padding-top: 10px;
+}
+
+#content-text-acess {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  padding-top: 10px;
+}
+
+#text-holder-acess {
+  width: 80px;
+  height: 6px;
+  background-color: #3998b8;
+}
+
+/* Footer */
+
+#footer-links {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Buscar Voos */
+
+#section-buscarvoos {
+  background-color: #003373;
+  border-radius: 8px;
+}
+
+#voos-title {
+  text-align: center;
+  color: #fff;
+  font-size: 31px;
+}
+
+#voos-subtitle {
+  font-size: 20px;
+  color: #fff;
+}
+
+#voos-description {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 24px;
+}
+
+#voo {
+  background-color: #fff;
+  height: 100px;
+  width: 100%;
+  text-decoration: none;
+  border-bottom: 1px solid #003373;
+}
+
+#voo-content {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+#voo-content-title {
+  color: #003373;
+  font-size: 15px;
+}
+
+#voo-content-description {
+  color: #353b3d;
+  font-size: 20px;
+}
+
+#icons-beneficiosgol {
+  color: #003373;
+  font-size: 24px;
+  margin: 5px;
+}
+
+/* Login */
+
+#login-esqueceu {
+  text-decoration: none;
+}
+
+#login-links {
+  margin-top: 2%;
+  color: #3998b8;
+  font-size: 16px;
+}
+
+#div-sem-login {
+  background-color: #ffffff;
+  height: 41px;
+  width: 168px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+#btn-sem-login {
+  text-decoration: none;
+  color: #003373;
+}
+
+/* Cadastro */
+
+#input-CEP {
+  width: 140px;
+}
+
+#search-correios {
+  text-align: left;
+  margin-top: 48px;
+  margin-left: 20px;
+}
+
+#search-correios-link {
+  color: #fff;
+  font-size: 12px;
+}
+
+#input-nacionalidade {
+  text-align: left;
+  margin-top: 48px;
+  margin-left: 20px;
+}
+
+#inputDocumemento {
+  width: 185px;
+}
+
+#input-Numero-Documemento {
+  width: 217px;
+}
+
+/* Necessidades Especiais */
+
+#check-necessidades {
+  font-size: 20px !important;
+}
+
+#text-necessidades {
+  padding-top: 3px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+/* Voo Selecionado */
+
+#div-selecionarVoo {
+  border-radius: 20px;
+  background-color: #ff6464;
+  color: #fff;
+  height: 41px;
+  width: 165px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#link-selecionar {
+  text-decoration: none;
+}
+
+/* Selecionar Assentos */
+
+#assentos-subtitle {
+  font-size: 20px;
+  color: #fff;
+}
+
+.subtitle-icon-circle-1 {
+  font-size: 20px;
+  color: #59b839;
+  padding-right: 10px;
+}
+
+.subtitle-icon-circle-2 {
+  font-size: 20px;
+  color: #ff6464;
+  padding-right: 10px;
+}
+
+.subtitle-icon-circle-3 {
+  font-size: 20px;
+  color: gray;
+  padding-right: 10px;
+}
+
+.subtitle-icon-circle-4 {
+  font-size: 20px;
+  color: black;
+  padding-right: 10px;
+}
+
+/* Avião */
+
+.section-aviao {
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.cabine {
+  background-color: #fff;
+  height: 1440px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  text-align: center;
+}
+
+.assentos-cauda {
+  background-color: #fff;
+  height: 1440px;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  text-align: center;
+}
+
+#assentos-indices {
+  margin-top: 100%;
+  font-size: 24px;
+  border-bottom: 1px solid red;
+}
+
+#fileira-indices {
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#all-assentos {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.assentos-disp {
+  font-size: 60px;
+  color: #59b839;
+}
+
+.assentos-Gol {
+  font-size: 60px;
+  color: #ff6464;
+}
+
+.assentos-ocupado {
+  font-size: 60px;
+  color: gray;
+}
+
+.assentos-bloqueado {
+  font-size: 60px;
+  color: black;
+}
+
+.last-fileira {
+  border-bottom: 1px solid red;
+}
+
+/* Confirmação de Assento */
+
+#Assento-selecionado {
+  color: #fff;
+  background-color: #ff6464;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+/* Personalizar Viagem */
+
+#imgs-personalizar {
+  height: 160px;
+  width: 160px;
+}
+
+#col-imgs-personalizar {
+  color: #fff;
+  text-align: center;
+}
+
+#col-content-personalizar {
+  color: #fff;
+  margin-top: 25px;
+}
+
+.input-op-personalizar {
+  margin-top: 15px;
+  height: 46px;
+  width: 300px !important;
+}
+
+/* Carrinho */
+
+#img-airplane {
+  width: 122.67px;
+  height: 131.02px;
+}
+
+#img-person {
+  width: 97.92px;
+  height: 128px;
+}
+
+#img-seat {
+  width: 106.24px;
+  height: 128px;
+}
+
+#col-imgs-carrinho {
+  color: #fff;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#col-title-carrinho {
+  color: #fff;
+}
+
+#col-content-carrinho {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+#passageiro-info {
+  margin: auto;
+  padding-top: 50px;
+}
+
+.passageiro-total {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+
+#col-precos {
+  margin-right: 50px;
+  text-align: right;
+}
+
+#assento-info {
+  margin: auto;
+  padding-top: 10px;
+}
+
+#bagagem-info {
+  margin-top: 5.5%;
+}
+
+#alterar-links {
+  text-decoration: none;
+  color: #3998b8;
+}
+
+#row-valor-final {
+  margin: auto;
+  text-align: center;
+}
+
+#valor-total {
+  font-size: 32px;
+  color: #fff;
+}
+
+#btn-pagamento {
+  background-color: #ff6464;
+  color: #fff;
+  margin: auto;
+  padding: 9px;
+  height: 40px;
+  text-align: center;
+  width: 300px;
+  border-radius: 36px;
+}
+
+#btn-voltar {
+  background-color: #3998b8;
+  color: #fff;
+  margin: auto;
+  padding: 9px;
+  height: 40px;
+  text-align: center;
+  width: 110px;
+  border-radius: 36px;
+}
+
+#btn-links {
+  text-decoration: none;
+  color: #fff;
+}
+
+#section-carrinho {
+  background-color: #003373;
+  border-radius: 8px;
+  width: 960px;
+}
+
+/* Pagamento */
+
+#pagamento-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+#pagamento-link2 {
+  text-decoration: none;
+  color: #3998b8;
+}
+
+.pagamento-icon {
+  font-size: 24px !important;
+}
+
+#pagamento-text {
+  padding-left: 10px;
+  font-size: 18px;
+  color: #3998b8;
+}
+
+/* Confirmação do pagamento */
+
+#btn-perfil {
+  background-color: #3998b8;
+  height: 41px;
+  width: 168px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+#btn-checkin {
+  background-color: #ff6464;
+  height: 41px;
+  width: 168px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+#btn-statusvoo {
+  background-color: #3998b8;
+  height: 41px;
+  width: 168px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+#btn-links {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Atendimento */
+
+#contatos-label{
+  margin: auto;
+  padding: 10px;
+  background-color: #fff;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+
+#contatos-text{
+  color: #353b3d;
+}
+
+#tbody{
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 24px; 
+}

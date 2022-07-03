@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Icons Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Main/CSS/styles.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    <title>Pagamento</title>
+</head>
+
+<body class="container body main">
+    <header>
+
+        <div class="row">
+            <div class="col-2"><a href="/Main/index.html" id="logo">RiseUp!</a></div>
+            <div class="col-8" id="navbar-links">
+                <a class="my-icon" href="/Main/Pages/Acessibilidade.html"
+                    alt="Botão de navegação que o leva para a página Acessibilidade">Acessibilidade</a>
+                <a class="my-icon" href="/Main/Pages/ComprarPassagem.html">Comprar passagem</a>
+                <a class="my-icon" href="/Main/Pages/Check-in.html">Check-in</a>
+                <a class="my-icon" href="/Main/Pages/StatusVoo.html ">Status de voo</a>
+                <a class="my-icon" href="/Main/Pages/Atendimento.html">Atendimento</a>
+            </div>
+            <div class="col-2">
+                <div id="btn-login">
+                    <a id="btn-link" href="/Main/Pages/Login.html">Login</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <br>
+
+    <main class="container">
+        <br>
+
+        <div class="container" align="center">
+            <h4 id="text-title">Pagamento</h4>
+            <div id="divider-section"></div>
+        </div>
+
+        <br>
+
+        <form class="container myform">
+
+            <!-- Nacionalidade -->
+            <fieldset class="col-mb-3">
+
+                <br>
+
+                <div align="center">
+                    <h5>Dados do responsável pelo pagamento</h5>
+                </div>
+                <div align="center">
+                    <h6>* Todos os campos são obrigatórios *</h6>
+                </div>
+
+                <br>
+
+                <!-- Nome completo -->
+                <div class="col-md">
+                    <label for="input-username" class="form-label" id="title-input">Nome completo</label>
+                    <input type="text" class="form-control input-passageiro" id="input-username"
+                        placeholder="Digite seu nome">
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-4"><label for="inputPassageiro" class="form-label"
+                            id="title-input">Documento</label>
+                        <select id="inputDocumemento" class="form-select input-passageiro">
+                            <option selected>Selecione</option>
+                            <option>CPF</option>
+                            <option>RG</option>
+                            <option>Passaporte</option>
+                        </select>
+                    </div>
+                    <div class="col-md">
+                        <div class="col-sm-10">
+                            <div class="form-check" id="input-nacionalidade">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Não sou Brasileiro
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <label for="input-username" class="form-label" id="title-input">Digite o número</label>
+                        <input type="text" class="form-control input-passageiro" id="input-Numero-Documemento"
+                            placeholder="Ex: 000.000.000-00">
+                    </div>
+
+                    <div class="col-md-4"><label for="inputPassageiro" class="form-label"
+                            id="title-input">Nacionalidade</label>
+                        <select id="inputDocumemento" class="form-select input-passageiro">
+                            <option selected>Selecione</option>
+                            <option>Americano</option>
+                            <option>Brasileiro</option>
+                            <option>Chileno</option>
+                        </select>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="col"><label for="inputPassageiro" class="form-label" id="title-input">País</label>
+                    <select id="" class="form-select input-passageiro">
+                        <option selected>Selecione</option>
+                        <option>Argélia</option>
+                        <option>Brasil</option>
+                        <option>Chile</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div class="col"><label for="inputPassageiro" class="form-label" id="title-input">Estado</label>
+                    <select id="" class="form-select input-passageiro">
+                        <option selected>Selecione</option>
+                        <option>Argélia</option>
+                        <option>Brasil</option>
+                        <option>Chile</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div class="col"><label for="inputPassageiro" class="form-label" id="title-input">Cidade</label>
+                    <select id="" class="form-select input-passageiro">
+                        <option selected>Selecione</option>
+                        <option>Argélia</option>
+                        <option>Brasil</option>
+                        <option>Chile</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div class="col-md">
+                    <label for="input-username" class="form-label" id="title-input">Endereço</label>
+                    <input type="text" class="form-control input-passageiro" id="input-username"
+                        placeholder="Digite seu endereço">
+                </div>
+
+                <br>
+
+                <div class="col-md">
+                    <label for="input-username" class="form-label" id="title-input">Número</label>
+                    <input type="text" class="form-control input-passageiro" id="input-username"
+                        placeholder="Digite o número do endereço">
+                </div>
+
+                <br>
+
+                <div class="col-md">
+                    <label for="input-username" class="form-label" id="title-input">Complemento</label>
+                    <input type="text" class="form-control input-passageiro" id="input-username"
+                        placeholder="Digite um complemento">
+                </div>
+
+                <br>
+
+                <div class="col-md">
+                    <label for="input-username" class="form-label" id="title-input">Telefone celular</label>
+                    <input type="text" class="form-control input-passageiro" id="input-username"
+                        placeholder="+00 (00) 00000-0000">
+                </div>
+
+                <br>
+                <br>
+                <div align="center">
+                    <h3>Formas de pagamento</h3>
+                </div>
+
+                <div class="col"><label for="inputPassageiro" class="form-label" id="title-input">Opções</label>
+                    <select id="" class="form-select input-passageiro">
+                        <option selected>Selecione</option>
+                        <option>Cartão de crédito</option>
+                        <option>Cartão de débito</option>
+                        <option>Paypal</option>
+                        <option>Pix</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div class="col-md">
+                    <label for="input-username" class="form-label" id="title-input">Número do cartão</label>
+                    <input type="number" class="form-control input-passageiro" id="input-username"
+                        placeholder="Digite o número do cartão">
+                </div>
+
+                <br>
+
+                <div class="col-md">
+                    <label for="inputdataVoltar" class="form-label" id="title-input">Validade</label>
+                    <input type="date" class="form-control input-passageiro" id="inputdataVoltar">
+                </div>
+
+                <br>
+
+                <div class="col-md">
+                    <label for="input-username" class="form-label" id="title-input">Nome do titular</label>
+                    <input type="email" class="form-control input-passageiro" id="input-username"
+                        placeholder="Digite o nome aqui">
+                </div>
+
+                <br>
+
+                <div class="col-md">
+                    <label for="input-username" class="form-label" id="title-input">Código de segurança</label>
+                    <input type="number" class="form-control input-passageiro" id="input-username"
+                        placeholder="Digite aqui o código">
+                </div>
+
+                <br>
+
+                <div class="col"><label for="inputPassageiro" class="form-label" id="title-input">Número de
+                        parcelas</label>
+                    <select id="" class="form-select input-passageiro">
+                        <option selected>Selecione</option>
+                        <option>x 1</option>
+                        <option>x 2</option>
+                        <option>x 5</option>
+                        <option>x 12</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div class="col-md">
+                    <a id="pagamento-link" href=""><i class="bi bi-plus-circle-fill pagamento-icon "></i><span
+                            id="pagamento-text">Pagar com dois cartões</span></a>
+                </div>
+
+                <br>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Li e concordo com o: <a href="" id="pagamento-link2">contrato de transporte aéreo </a>, <a href="" id="pagamento-link2">política de privacidade</a>, termos de tarifas
+                        e <a href="" id="pagamento-link2">restrições de bagagem.</a>
+                    </label>
+                </div>
+
+                <br>
+
+                <div class="row" id="section-btns-comprar" align="middle">
+                    <div class="col">
+                        <div id="div-btn-voltar">
+                            <a id="btn-voltar" href="/Main/Pages/Carrinho.html">Cancelar</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div id="div-btn-buscar">
+                            <a id="btn-buscar" href="/Main/Pages/ConfirmaçãoPagamento.html">Confirmar </a>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+
+            </fieldset>
+        </form>
+
+        <br>
+
+    </main>
+
+    <div class="container">
+        <footer class="row row-cols-5 py-5 my-5 border-top">
+            <div class="col">
+                <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                    <h3 id="nav-footer">RiseUp!</h3>
+                </a>
+                <p id="nav-footer">© 2021</p>
+            </div>
+
+            <div class="col">
+
+            </div>
+
+            <div class="col">
+                <h5 id="nav-footer2">Menu</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="/Main/index.html" id="footer-links" class="nav-link p-0">Home</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="/Main/Pages/Acessibilidade.html" id="footer-links"
+                            class="nav-link p-0">Acessibilidade</a></li>
+                    <li class="nav-item mb-2"><a href="/Main/Pages/ComprarPassagem.html" id="footer-links"
+                            class="nav-link p-0">Comprar passagem</a></li>
+                    <li class="nav-item mb-2"><a href="#" id="footer-links" class="nav-link p-0">Check-in</a></li>
+                    <li class="nav-item mb-2"><a href="#" id="footer-links" class="nav-link p-0">Status de voo</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5 id="nav-footer2">Contato</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" id="footer-links" class="nav-link p-0">Atendimento</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" id="footer-links" class="nav-link p-0">Telefone</a></li>
+                    <li class="nav-item mb-2"><a href="#" id="footer-links" class="nav-link p-0">Email</a></li>
+                    <li class="nav-item mb-2"><a href="https://www.instagram.com/mamisbrasil/" target="_blank"
+                            id="footer-links" class="nav-link p-0">Instagram</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5 id="nav-footer2">Extras</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" id="footer-links" class="nav-link p-0">Sobre nós</a></li>
+                    <li class="nav-item mb-2"><a href="#" id="footer-links" class="nav-link p-0">Blog</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
